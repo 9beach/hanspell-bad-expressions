@@ -195,7 +195,7 @@
 
 ## 맞춤법 검사 제외 문자열
 
-저의 `~/.hanspell-ignore` 파일입니다. 주로 정규 표현식이나 마크업, URL을 맞춤법 검사에서 제외하는 그로브 패턴입니다.
+저의 `~/.hanspell-ignore` 파일입니다. 주로 정규 표현식이나 마크업, URL을 맞춤법 검사에서 제외하는 [글로브 패턴](<https://ko.wikipedia.org/wiki/%EA%B8%80%EB%A1%9C%EB%B8%8C_(%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)>)입니다.
 
 ```rc
 ?
