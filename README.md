@@ -10,6 +10,8 @@
 
 김정선 작가의 《[내 문장이 그렇게 이상한가요?](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=74920327)》에서 많이 가져왔습니다.
 
+_코드 출처: <https://github.com/9beach/hanspell-bad-expressions/blob/main/rc/hanspell-bad-expressions.json>._
+
 ```json
 {
   "bad-expressions": [
