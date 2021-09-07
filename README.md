@@ -1,4 +1,4 @@
-# [“비주얼 스튜디오 코드 한스펠”](https://github.com/9beach/vscode-hanspell) 설정 예시
+# [“비주얼 스튜디오 코드 한스펠”](https://marketplace.visualstudio.com/items?itemName=9beach.vscode-hanspell) 설정 예시
 
 ## 사용자 정의 표현식
 
@@ -9,8 +9,6 @@
 `Information`이나 `Warning`으로 지정한 표현식에도 거짓 경보 가능성이나 예외는 많습니다. 예를 들어, ‘-던’이 붙는 표현은 현재형이 자연스러울 때가 많으니, ‘방문했던 장소’와 ‘배웠던 내용’을 ‘방문한 장소’와 ‘배운 내용’으로 고치도록 권하는 표현식이 있습니다. 그러나 ‘고왔던 뺑덕어멈’을 ‘고운 뺑덕어멈’으로 고칠 수는 없습니다. 예의 ‘장소’와 ‘내용’은 수식하는 말의 목적어이지만 ‘뺑덕어멈’은 주어라는 차이가 있습니다. 그리고 ‘-에서는’을 ‘-은(는)/-에/-에서/-에는’ 등으로 고치도록 권하는 표현식은 개인적 취향이어서 일반적으로 옳다고 말하기 힘듭니다. 하나하나 밝히기 힘들 만큼 예외가 많으니 참고 용도로만 쓰세요.
 
 김정선 작가의 《[내 문장이 그렇게 이상한가요?](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=74920327)》에서 많이 가져왔습니다.
-
-<script src="https://gist.github.com/9beach/b42eb66356bd399bbfc14309f0022c4e.js?file=hanspell-bad-expressions.json"></script>
 
 ```json
 {
