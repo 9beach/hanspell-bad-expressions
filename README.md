@@ -1,14 +1,16 @@
-# [“비주얼 스튜디오 코드 한스펠”](https://marketplace.visualstudio.com/items?itemName=9beach.vscode-hanspell) 설정 예시
+# 비주얼 스튜디오 코드 한스펠 설정
+
+사용자 정의 표현식(`~/.hanspell-bad-expressions.json`)을 중심으로 [“비주얼 스튜디오 코드 한스펠”](https://github.com/9beach/vscode-hanspell)의 설정 예시를 제공합니다.
 
 ## 사용자 정의 표현식
 
 맞춤법 검사를 한 번이라도 실행한 문서라면 수정할 때마다 사용자 정의 표현식이 자동으로 적용됩니다.
 
-아래는 저의 `~/.hanspell-bad-expressions.json` 파일입니다. 모르고 지나치는 것보다는 나을 것 같아 거짓 경보 가능성이 높은 표현식도 몇 개 추가했습니다. 대신 분석 심각도가 `Hint`여서 눈에 띄지 않는 짧은 점선으로 표시됩니다.
+아래의 저의 `~/.hanspell-bad-expressions.json` 파일입니다. 김정선 작가의 《[내 문장이 그렇게 이상한가요?](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=74920327)》에서 많이 가져왔습니다.
+
+모르고 지나치는 것보다는 나을 것 같아 거짓 경보 가능성이 높은 표현식도 몇 개 추가했습니다. 대신 분석 심각도가 `Hint`여서 눈에 띄지 않는 짧은 점선으로 표시됩니다.
 
 `Information`이나 `Warning`으로 지정한 표현식에도 거짓 경보 가능성이나 예외는 많습니다. 예를 들어, ‘-던’이 붙는 표현은 현재형이 자연스러울 때가 많으니, ‘방문했던 장소’와 ‘배웠던 내용’을 ‘방문한 장소’와 ‘배운 내용’으로 고치도록 권하는 표현식이 있습니다. 그러나 ‘고왔던 뺑덕어멈’을 ‘고운 뺑덕어멈’으로 고칠 수는 없습니다. 예의 ‘장소’와 ‘내용’은 수식하는 말의 목적어이지만 ‘뺑덕어멈’은 주어라는 차이가 있습니다. 그리고 ‘-에서는’을 ‘-은(는)/-에/-에서/-에는’ 등으로 고치도록 권하는 표현식은 개인적 취향이어서 일반적으로 옳다고 말하기 힘듭니다. 하나하나 밝히기 힘들 만큼 예외가 많으니 참고 용도로만 쓰세요.
-
-김정선 작가의 《[내 문장이 그렇게 이상한가요?](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=74920327)》에서 많이 가져왔습니다.
 
 _코드 출처: <https://github.com/9beach/hanspell-bad-expressions/blob/main/rc/hanspell-bad-expressions.json>._
 
@@ -197,7 +199,7 @@ _코드 출처: <https://github.com/9beach/hanspell-bad-expressions/blob/main/rc
 
 ## 맞춤법 검사 제외 문자열
 
-저의 `~/.hanspell-ignore` 파일입니다. 주로 정규 표현식이나 마크업, URL을 맞춤법 검사에서 제외하는 [글로브 패턴](<https://ko.wikipedia.org/wiki/%EA%B8%80%EB%A1%9C%EB%B8%8C_(%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)>)입니다.
+아래는 저의 `~/.hanspell-ignore` 파일입니다. 주로 정규 표현식이나 마크업, URL을 맞춤법 검사에서 제외하는 [글로브 패턴](<https://ko.wikipedia.org/wiki/%EA%B8%80%EB%A1%9C%EB%B8%8C_(%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)>)입니다.
 
 ```rc
 ?
