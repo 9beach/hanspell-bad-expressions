@@ -109,7 +109,7 @@ _코드 출처: <https://github.com/9beach/hanspell-bad-expressions/blob/main/rc
         "누구인가 보고 -> 누구인지 보고"
       ],
       "info": "‘-ㄴ지’로 고쳐 보세요.",
-      "expression": "[가-힣’”`』」》]+[는인]가를?((?=[^ㄱ-ㅎㅏ-ㅣ가-힣a-zA-Z])|$)",
+      "expression": "[가-힣’”`』」》]+[는인신]가를?(?= +[ㄱ-ㅎㅏ-ㅣ가-힣a-zA-Z])",
       "severity": "Information"
     },
     {
